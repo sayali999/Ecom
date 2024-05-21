@@ -19,7 +19,7 @@ const errorMiddleware = require("./middlewares/error-middleware");
 
 //handle cors policy
 const corsOption = {
-    origin: ["https://ecom-mauve-mu.vercel.app/"],
+    origin: ["http://localhost:3000","http://localhost:3001"],
     methods: "GET, POST , PUT, DELETE, PATCH, HEAD",
     credentials: true
 };
